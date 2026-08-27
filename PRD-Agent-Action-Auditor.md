@@ -7,7 +7,7 @@
 **Author:** Venerdi
 
 ---
-
+ 
 ## 1. Latar Belakang & Masalah
 
 AI agent modern (LLM + tools) makin sering dikasih akses buat eksekusi aksi nyata: kirim email, ubah file, hit API eksternal, transfer data, dll. Masalahnya, agent bisa salah interpretasi instruksi, halusinasi, atau melakukan aksi yang tidak reversibel tanpa disadari user.

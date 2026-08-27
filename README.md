@@ -2,6 +2,20 @@
 
 Dashboard web untuk memantau, menyetujui, dan mengaudit setiap aksi yang mau diambil AI agent — sebelum dieksekusi. Lihat `PRD-Agent-Action-Auditor.md` untuk detail lengkap.
 
+## Status
+
+> **Under active development** — saat ini di akhir Fase 1 (Setup & Skeleton) sesuai roadmap di PRD. Chat endpoint sudah jalan end-to-end via Groq, tapi sisanya (mock tools, risk classifier, approval queue, audit log) belum diimplementasi.
+
+**Sudah jalan (Fase 1):**
+- Chat dasar: kirim pesan → dapat balasan dari LLM
+
+**Segera (Fase 2-5):**
+- Mock tools (send_email, create_calendar_event, delete_file)
+- Risk classifier (low / medium / high)
+- Approval queue dengan flow approve / reject
+- Audit log
+- Dashboard analitik
+
 ## Stack
 
 - **Backend:** FastAPI (Python) + OpenAI SDK (pointed at Groq)
