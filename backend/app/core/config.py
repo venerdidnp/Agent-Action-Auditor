@@ -9,6 +9,7 @@ class Settings(BaseSettings):
     groq_model: str = "openai/gpt-oss-120b"
     groq_base_url: str = "https://api.groq.com/openai/v1"
     frontend_origins: list[str] = ["http://localhost:3000"]
+    database_url: str = "sqlite:///./auditor.db"
 
 
 settings = Settings()
